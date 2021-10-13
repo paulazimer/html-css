@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Zen Loop';
+    src: url(../meu\ desafio/ZenLoop-Regular.ttf);
+}
+@font-face {
+    font-family:'Festive';
+    src: url(../Festive-Regular.ttf);
+} 
+
+
+:root{
+    --cor0: #F5B8D4;
+    --cor1:#CEB4D6;
+    --cor2: #9F86EB;
+    --cor3: #7E96D6;
+    --cor4: #B4EAFA;
+
+    --fonte-padrao: sans-serif, verdana;
+    --fonte-titulo:'Festive';
+    --fonte-cabeçalho:'Zen Loop';
+    
+}
+
+*{
+    margin: 0%;
+    padding: 10px;
+}
+
+BODY{
+    font-family: var(--fonte-padrao);
+    background-color: white;
+}
+header{
+    background-color: var(--cor0);
+    
+    
+}
+header>h1{
+    font-family: var(--fonte-cabeçalho);
+    font-size: 50px;
+    text-align: center;
+    color:rgb(38, 59, 59);
+}
+nav{
+    text-align: center;
+    background-color: var(--cor1);
+    
+}
+nav>a{
+    color: rgb(173, 109, 84);
+    font-weight: bolder;
+}
+main{
+    background-color: white;
+    margin:auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    min-width: 280px;
+    max-width: 800px;
+    box-shadow: 0px 0px 10px var(--cor0);
+}
+
+main{
+    height: 500px;
+}
+main h1{
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    color:var(--cor2);
+    background-color:rgb(200, 248, 200);
+    border-radius: 10px;
+    display: inline-block;
+    text-align:center;
+    
+
+}
+main p{
+  border: medium;
+  background-color: khaki;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-left: 1px;
+  line-height: 40px;
+
+  
+}
+
+   
+
+
